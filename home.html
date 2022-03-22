@@ -1,0 +1,77 @@
+<html>
+    <head> 
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+       
+       <style>
+            body{
+                margin: 0;
+                flex-direction: column;
+                display: flex;
+                height: 100%;
+            }
+           header{
+                background-color: #2874A6 ;
+                padding: 14px;
+                text-align: center;
+                font-size: 23px;
+                font-family: 'Space Mono', monospace;
+                color: white;
+            }
+
+            main{
+                flex-grow: 1;
+            }
+            .login-box-conteiner{
+                display: flex;
+                justify-content: center;
+                align-items: center ;
+                height: 75%;
+            }
+            .logo-box{
+                border: 2px solid black;
+                width: 500px;
+                padding: 20px;
+                border-radius: 5px;
+                text-align: center;
+            }
+            input[type=text]{
+                width: 100%;
+                padding: 10px;
+                border: 1px solid rgb(133, 210, 255);
+                margin-bottom: 10px;
+                border-radius: 5px;
+            }
+            .primary-button{
+                border: none;
+                padding: 10px 20px 10px 20px;
+                color: white;
+                background-color: #2874A6 ;
+                border-radius: 5px;
+            }
+            .login-button{
+                margin: auto;
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+       <header> 
+           <div class="logo">Dialogar</div>
+       </header>
+       <main> 
+           <div class="login-box-conteiner">
+             <div class="logo-box">
+                <form>
+                    <input type="text" placeholder="username">
+                    <input type="text" placeholder="password">
+                    <button type="submit" class="primary-button login-button">Login</button>
+                </form>
+                <a href="#">Nao registado? Clica aqui para tal</a>
+             </div>
+            </div>
+     </main>
+       <footer></footer>
+    </body>
+</html>
